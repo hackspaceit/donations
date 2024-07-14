@@ -35,15 +35,30 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
           label: `State: ${state?.page || 0}`,
+        },       
+        {
+          action: 'link',
+          label: 'GivenDirectly',
+          target: 'https://onchainkit.xyz',
         },
         {
           action: 'link',
-          label: 'OnchainKit',
+          label: 'Giving Green',
           target: 'https://onchainkit.xyz',
         },
         {
           action: 'post_redirect',
-          label: 'Dog pictures',
+          label: 'Animal Charity',
+        },
+        {
+          action: 'link',
+          label: 'UHNCR',
+          target: 'https://onchainkit.xyz',
+        },
+        {
+          action: 'link',
+          label: 'Donations',
+          target: 'https://onchainkit.xyz',
         },
       ],
       image: {
