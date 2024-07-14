@@ -55,11 +55,17 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           label: 'UHNCR',
           target: 'https://onchainkit.xyz',
         },
+       {
+          action: 'link',
+          label: 'Donations',
+          target: 'https://onchainkit.xyz',
+        },
         {
           action: 'link',
           label: 'Donations',
           target: 'https://onchainkit.xyz',
         },
+        
       ],
       image: {
         src: `${NEXT_PUBLIC_URL}/frame-2.jpg`,
