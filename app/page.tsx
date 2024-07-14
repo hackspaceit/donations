@@ -15,10 +15,10 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/park-3.png`,
+    src: `${NEXT_PUBLIC_URL}/frame-1.jpg`,
     aspectRatio: '1:1',
   },
-   
+
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
