@@ -56,16 +56,16 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           target: 'https://onchainkit.xyz',
         },
        {
-          action: 'link',
+          action: 'tx',
           label: 'Donations',
           target: 'https://onchainkit.xyz',
         },
         {
-          action: 'link',
+          action: 'tx',
           label: 'Donations',
           target: 'https://onchainkit.xyz',
         },
-        
+
       ],
       image: {
         src: `${NEXT_PUBLIC_URL}/frame-2.jpg`,
