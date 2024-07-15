@@ -5,17 +5,17 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Yes',
+      label: 'Next',
     },
     {
       action: 'tx',
-      label: 'Send Base Sepolia',
+      label: 'Mint',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/frame-1.jpg`,
+    src: `${NEXT_PUBLIC_URL}/quote-1.png`,
     aspectRatio: '1:1',
   },
 
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'zizzamia.xyz',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/frame-2.jpg`],
+    images: [`${NEXT_PUBLIC_URL}/quote-2.png`],
   },
   other: {
     ...frameMetadata,
