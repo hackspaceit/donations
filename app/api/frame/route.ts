@@ -50,21 +50,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           action: 'post_redirect',
           label: 'Animal Charity',
         },
-        {
-          action: 'link',
-          label: 'UHNCR',
-          target: 'https://onchainkit.xyz',
-        },
-       {
-          action: 'tx',
-          label: 'Donations',
-          target: 'https://onchainkit.xyz',
-        },
-        {
-          action: 'tx',
-          label: 'Donations',
-          target: 'https://onchainkit.xyz',
-        },
+        
 
       ],
       image: {
