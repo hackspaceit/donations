@@ -35,7 +35,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
-          label: `🌲 ${text} 🌲`,
+          label: `Next`,
           target: `${NEXT_PUBLIC_URL}/api/frame-2`,
          
         },
