@@ -6,6 +6,8 @@ const frameMetadata = getFrameMetadata({
   buttons: [
     {
       label: 'Next',
+      target: `/frame-1.jpg`,
+      
     },
     {
       action: 'tx',
