@@ -6,7 +6,7 @@ const frameMetadata = getFrameMetadata({
   buttons: [
     {
       label: 'Next',
-      
+
 
     },
     {
@@ -18,7 +18,7 @@ const frameMetadata = getFrameMetadata({
 
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/quote-1.png`,
+    src: `${NEXT_PUBLIC_URL}/photo-1.jpg`,
     aspectRatio: '1:1',
   },
 
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'zizzamia.xyz',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/quote-2.png`],
+    images: [`${NEXT_PUBLIC_URL}/photo-2.jpg`],
   },
   other: {
     ...frameMetadata,
