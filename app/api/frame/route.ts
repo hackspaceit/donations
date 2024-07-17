@@ -29,18 +29,15 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       { status: 302 },
     );
   }
-  if (message?.button === 2) {
-    return NextResponse.redirect(
-      'https://www.google.com/search?q=cute+dog+pictures&tbm=isch&source=lnms',
-      { status: 302 },
-    );
-  }
+
 
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
         {
           label: `🌲 ${text} 🌲`,
+          target: `${NEXT_PUBLIC_URL}/api/tx`,
+          postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
         },
       ],
       image: {
