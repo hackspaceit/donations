@@ -37,8 +37,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         {
             action: 'tx',
             label: 'Mint',
-            target: `${NEXT_PUBLIC_URL}/api/tx`,
-            postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+            target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/2`,
+            
           },
 
           {
