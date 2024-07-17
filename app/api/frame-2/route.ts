@@ -36,12 +36,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
           label: `🌲 ${text} 🌲`,
-          target: `${NEXT_PUBLIC_URL}/api/frame-2`,
+          target: `${NEXT_PUBLIC_URL}/api/frame`,
          
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/park-1.png`,
+        src: `${NEXT_PUBLIC_URL}/quote-2.png`,
         aspectRatio: '1:1',
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
