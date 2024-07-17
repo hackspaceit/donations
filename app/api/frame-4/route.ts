@@ -41,11 +41,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           
         },
 
-          {
-            action: 'tx',
-            label: 'Next',
-            target: `${NEXT_PUBLIC_URL}/api/tx`,
-            postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+        {
+            label: `Next`,
+            target: `${NEXT_PUBLIC_URL}/api/frame-5`,
+           
           },
       ],
      
