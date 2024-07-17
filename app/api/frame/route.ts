@@ -35,34 +35,23 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       { status: 302 },
     );
   }
+
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
         {
-          label: 'next',
-        },       
-
-        {
-          action: 'post_redirect',
-          label: 'Animal Charity',
-        },
-        
-        {
-          action: 'post_redirect',
-          label: 'Animal',
+          label: `🌲 ${text} 🌲`,
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/quote-2.png`,
+        src: `${NEXT_PUBLIC_URL}/park-1.png`,
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
-      state: {
-        page: state?.page + 1,
-        time: new Date().toISOString(),
-      },
+
     }),
   );
 }
+
 
 export async function POST(req: NextRequest): Promise<Response> {
   return getResponse(req);
