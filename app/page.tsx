@@ -18,7 +18,7 @@ const frameMetadata = getFrameMetadata({
 
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/photo-1.jpg`,
+    src: `${NEXT_PUBLIC_URL}/banner.png`,
     aspectRatio: '1:1',
   },
 
