@@ -35,13 +35,19 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
+          action: 'link',
+          label: 'Mint',
+          target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/1`,
+          
+        },
+        {
           label: `Next`,
           target: `${NEXT_PUBLIC_URL}/api/frame-2`,
          
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/photo-2.jpg`,
+        src: `${NEXT_PUBLIC_URL}/photo-1.jpg`,
         aspectRatio: '1:1',
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
