@@ -47,7 +47,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           label: 'Animal Charity',
         },
         
-
+        {
+          action: 'post_redirect',
+          label: 'Animal',
+        },
       ],
       image: {
         src: `${NEXT_PUBLIC_URL}/quote-2.png`,

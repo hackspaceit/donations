@@ -13,6 +13,10 @@ const frameMetadata = getFrameMetadata({
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
+    {
+      label: 'Redirect to pictures',
+      action: 'post_redirect',
+    },
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/quote-1.png`,
