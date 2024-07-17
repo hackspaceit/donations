@@ -35,7 +35,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
-          action: 'tx',
+          action: 'link',
           label: 'Mint',
           target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/3`,
           
