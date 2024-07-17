@@ -40,7 +40,15 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             target: `${NEXT_PUBLIC_URL}/api/tx`,
             postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
           },
+
+          {
+            action: 'tx',
+            label: 'Next',
+            target: `${NEXT_PUBLIC_URL}/api/tx`,
+            postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+          },
       ],
+     
       image: {
         src: `${NEXT_PUBLIC_URL}/quote-2.png`,
         aspectRatio: '1:1',
