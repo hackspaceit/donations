@@ -35,10 +35,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     getFrameHtmlResponse({
       buttons: [
         {
-          label: `🌲 ${text} 🌲`,
-          target: `${NEXT_PUBLIC_URL}/api/frame`,
-         
-        },
+            action: 'tx',
+            label: 'Mint',
+            target: `${NEXT_PUBLIC_URL}/api/tx`,
+            postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+          },
       ],
       image: {
         src: `${NEXT_PUBLIC_URL}/quote-2.png`,
