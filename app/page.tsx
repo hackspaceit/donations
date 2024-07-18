@@ -26,11 +26,11 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
-  description: 'LFG',
+  title: 'Free mint 10 Summer NFT',
+  description: 'Specials for Onchain Summer Vibes',
   openGraph: {
-    title: 'zizzamia.xyz',
-    description: 'LFG',
+    title: 'Summer NFT',
+    description: 'Specials for Onchain Summer Vibes',
     images: [`${NEXT_PUBLIC_URL}/photo-2.jpg`],
   },
   other: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>Specials for Onchain Summer Vibes</h1>
     </>
   );
 }
