@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Get it Now',
+      label: 'Get it (Click for load NFT images)',
 
 
     },
