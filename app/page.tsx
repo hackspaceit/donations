@@ -14,19 +14,19 @@ const frameMetadata = getFrameMetadata({
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/banners.png`,
-    aspectRatio: '1:1',
+    aspectRatio: '1.91:1',
   },
 
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
-  title: 'Free mint 10 Summer NFT',
-  description: 'Specials for Onchain Summer Vibes',
+  title: 'List Airdrop Potential',
+  description: 'List of potential airdrops',
   openGraph: {
-    title: 'Summer NFT',
-    description: 'Specials for Onchain Summer Vibes',
-    images: [`${NEXT_PUBLIC_URL}/photo-2.jpg`],
+    title: 'List Airdrop Potential',
+    description: 'List of potential airdrops',
+    images: [`${NEXT_PUBLIC_URL}/banners.png`],
   },
   other: {
     ...frameMetadata,
@@ -36,7 +36,8 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Specials for Onchain Summer Vibes</h1>
+      <h1>5 Airdrop Potential 2024</h1>
+     <center> <img src="/banners.png"></img></center>
     </>
   );
 }
