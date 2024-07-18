@@ -41,6 +41,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           
         },
         {
+          action:'link',
+          label: `Zealy Task`,
+          target: `https://zealy.io/cw/unite/invite/CY6L_ngZAcK7QTLeAz-LW`,
+         
+        },
+        {
           label: `Next Page`,
           target: `${NEXT_PUBLIC_URL}/api/frame-2`,
          
