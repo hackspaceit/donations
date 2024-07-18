@@ -40,12 +40,6 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/10`,
           
         },
-
-        {
-            label: `Next`,
-            target: `${NEXT_PUBLIC_URL}/api/frame-10`,
-           
-          },
       ],
      
       image: {
