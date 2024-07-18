@@ -5,16 +5,11 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Next',
+      label: 'Get it Now',
 
 
     },
-    {
-      action: 'tx',
-      label: 'Mint',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
-    },
+    
 
   ],
   image: {
