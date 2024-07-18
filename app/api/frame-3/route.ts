@@ -37,7 +37,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         {
           action: 'link',
           label: 'Nominate',
-          target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/3`,
+          target: `https://build.top/nominate/0xAa66fC4433DFD254F05A720A8c8a2f1F2fbDCB58`,
           
         },
 

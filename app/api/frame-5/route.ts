@@ -36,20 +36,21 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
           action: 'link',
-          label: 'Mint',
-          target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/5`,
+          label: 'Join Now',
+          target: `https://wallet.coinbase.com/summer/share/summerpass?referral_id=b56f045d-3e73-454d-9a44-89bca9c7fee8&summerpass_id=0x0aa63cd98088d3a72704235d5bb81f6c91933653`,
           
         },
 
         {
-            label: `Next`,
+          action: 'link',
+            label: `Join Airdrop Group`,
             target: `${NEXT_PUBLIC_URL}/api/frame-6`,
            
           },
       ],
      
       image: {
-        src: `${NEXT_PUBLIC_URL}/photo-5.jpg`,
+        src: `${NEXT_PUBLIC_URL}/summer.png`,
         aspectRatio: '1:1',
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame-6`,
