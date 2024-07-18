@@ -36,20 +36,20 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
           action: 'link',
-          label: 'Mint',
+          label: 'Nominate',
           target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/3`,
           
         },
 
         {
-          label: `Next`,
+          label: `Next Page`,
           target: `${NEXT_PUBLIC_URL}/api/frame-4`,
          
         },
       ],
      
       image: {
-        src: `${NEXT_PUBLIC_URL}/photo-3.jpg`,
+        src: `${NEXT_PUBLIC_URL}/build.png`,
         aspectRatio: '1:1',
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame-4`,
