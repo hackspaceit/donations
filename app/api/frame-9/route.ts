@@ -37,22 +37,22 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         {
           action: 'link',
           label: 'Mint',
-          target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/8`,
+          target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/9`,
           
         },
 
         {
             label: `Next`,
-            target: `${NEXT_PUBLIC_URL}/api/frame-9`,
+            target: `${NEXT_PUBLIC_URL}/api/frame-10`,
            
           },
       ],
      
       image: {
-        src: `${NEXT_PUBLIC_URL}/photo-8.jpg`,
+        src: `${NEXT_PUBLIC_URL}/photo-9.jpg`,
         aspectRatio: '1:1',
       },
-      postUrl: `${NEXT_PUBLIC_URL}/api/frame-9`,
+      postUrl: `${NEXT_PUBLIC_URL}/api/frame-10`,
 
     }),
   );
