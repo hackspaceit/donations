@@ -40,7 +40,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             target: `https://ref.mode.network/Ta9ymI`,
             
           },
-
+          {
+            label: `Next Page`,
+            target: `${NEXT_PUBLIC_URL}/api/frame-3`,
+          },
           {
             label: `Next Page`,
             target: `${NEXT_PUBLIC_URL}/api/frame-3`,
