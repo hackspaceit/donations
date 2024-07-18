@@ -40,12 +40,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           target: `https://odyssey.unite.io/dashboard?referralCode=20d5d0c7`,
           
         },
-        {
-          action: 'link',
-          label: 'Zealy Task',
-          target: `https://bit.ly/zealyyyy`,
-          
-        },
+       
         {
           label: `Next Page`,
           target: `${NEXT_PUBLIC_URL}/api/frame-2`,
