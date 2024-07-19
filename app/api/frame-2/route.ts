@@ -44,10 +44,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
             label: `Next Page`,
             target: `${NEXT_PUBLIC_URL}/api/frame-3`,
           },
-          {
-            label: `Next Page`,
-            target: `${NEXT_PUBLIC_URL}/api/frame-3`,
-          },
+         
       ],
      
       image: {

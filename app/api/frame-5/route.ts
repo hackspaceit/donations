@@ -44,14 +44,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         {
           action: 'link',
             label: `Join Airdrop Group`,
-            target: `${NEXT_PUBLIC_URL}/api/frame-6`,
+            target: `https://t.me/airdropfind`,
            
           },
-          {
-            label: `Back`,
-            target: `${NEXT_PUBLIC_URL}/api/frame-2`,
-           
-          },
+         
       ],
      
       image: {
