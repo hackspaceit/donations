@@ -5,7 +5,7 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'View List',
+      label: 'See NFT List',
 
 
     },
@@ -13,20 +13,20 @@ const frameMetadata = getFrameMetadata({
 
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/banners.png`,
-    aspectRatio: '1.91:1',
+    src: `${NEXT_PUBLIC_URL}/banner.png`,
+    aspectRatio: '1:1',
   },
 
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
-  title: 'List Airdrop Potential',
-  description: 'List of potential airdrops',
+  title: 'Summer NFT',
+  description: 'LFG',
   openGraph: {
-    title: 'List Airdrop Potential',
-    description: 'List of potential airdrops',
-    images: [`${NEXT_PUBLIC_URL}/banners.png`],
+    title: 'Summer NFT',
+    description: 'LFG',
+    images: [`${NEXT_PUBLIC_URL}/banner.png`],
   },
   other: {
     ...frameMetadata,
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>5 Airdrop Potential 2024</h1>
-     <center> <img src="/banners.png"></img></center>
+      <h1>SUMMER NFT</h1>
+     <center> <img src="/banner.png"></img></center>
     </>
   );
 }

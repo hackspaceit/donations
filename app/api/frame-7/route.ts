@@ -36,7 +36,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
           action: 'link',
-          label: 'Mint',
+          label: 'Mint NFT #07',
           target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/7`,
           
         },
