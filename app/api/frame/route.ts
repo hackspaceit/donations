@@ -34,21 +34,17 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
+        
+        
+
         {
-          action: 'link',
-          label: 'Join Now',
-          target: `https://odyssey.unite.io/dashboard?referralCode=20d5d0c7`,
-          
-        },
-       
-        {
-          label: `Next Page`,
+          label: `View NFT`,
           target: `${NEXT_PUBLIC_URL}/api/frame-2`,
          
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/unite.png`,
+        src: `${NEXT_PUBLIC_URL}/banner.png`,
         aspectRatio: '1.91:1',
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,

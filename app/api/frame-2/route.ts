@@ -36,8 +36,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
             action: 'link',
-            label: 'Join Now',
-            target: `https://ref.mode.network/Ta9ymI`,
+            label: 'Mint NFT #01',
+            target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/1`,
             
           },
           {
@@ -48,7 +48,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       ],
      
       image: {
-        src: `${NEXT_PUBLIC_URL}/mode.png`,
+        src: `${NEXT_PUBLIC_URL}/photo-1.jpg.png`,
         aspectRatio: '1.91:1',
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame-3`,

@@ -36,8 +36,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       buttons: [
         {
           action: 'link',
-          label: 'Explore',
-          target: `https://jumper.exchange/id/superfest/`,
+          label: 'Mint NFT #03',
+          target: `https://zora.co/collect/base:0x5d20bc7ede3858e340887a2cde0db030fc37af2d/3`,
           
         },
 
@@ -49,7 +49,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       ],
      
       image: {
-        src: `${NEXT_PUBLIC_URL}/superfest.png`,
+        src: `${NEXT_PUBLIC_URL}/photo-4.jpg`,
         aspectRatio: '1.91:1',
       },
       postUrl: `${NEXT_PUBLIC_URL}/api/frame-5`,
